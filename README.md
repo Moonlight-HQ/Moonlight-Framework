@@ -1,3 +1,5 @@
+https://img.shields.io/badge/wiki%20coverage-100%25-brightgreen
+
 <p align="center">
     <a title="Moonlight" href="https://discord.gg/Qebv3Cj5PJ" target="_blank">
          <img src="https://cdn.discordapp.com/attachments/921495629035896866/921935377332314133/Untitled_Artwork.png" width="200" alt="DBM Mods" />
@@ -12,6 +14,9 @@
     </a>
     <a title="Release" href="https://github.com/callmehSpear/Moonlight-Framework/releases" target="_blank">
         <img src="https://img.shields.io/github/release/callmehSpear/Moonlight-Framework.svg?style=flat-square" alt="Latest Release" />
+    </a>
+    <a title="Wiki" href="https://github.com/callmehSpear/Moonlight-Framework/wiki" target="_blank">
+        <img src="https://img.shields.io/badge/wiki%20coverage-100%25-brightgreen" alt="Latest Release" />
     </a>
 </p>
     
