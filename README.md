@@ -14,7 +14,6 @@
         <img src="https://img.shields.io/github/license/callmehSpear/Moonlight-Framework.svg?style=flat-square" alt="License" />
     </a>
 </p>
-<p>
 The Moonlight Framework is a Roblox Framework/Library made in Luau the programming language of Roblox providing developers with helpful functions and tools.
     
 # Installation Instructions
@@ -28,4 +27,4 @@ Only you the developer needs to put this in your script, and whoever you are giv
 For development, you can just copy the source code from the repo, and make push requests to add new functions.
 
 # Documentation
-I believe the documentation is very good, so please check the documentation</p> <a href="https://github.com/callmehSpear/Moonlight-Framework/wiki">here</a>.
+I believe the documentation is very good, so please check the documentation<a href="https://github.com/callmehSpear/Moonlight-Framework/wiki"> here</a>.
