@@ -1,7 +1,12 @@
 local moonlightFramework = {}
 
 function moonlightFramework.getStatus()
-	warn("Moonlight Framework v1.0 is loaded.")
+	print("Fetching status...")
+	local httpService = game:GetService("HttpService")
+	local url = "https://api.github.com"
+	local data = httpService:GetAsync(url .. "/repos/callmehSpear/Moonlight-Framework/releases")
+	data = httpService:JSONDecode(data)
+	warn("Moonlight Framework v"..data[1].tag_name.." is running.")
 end
 
 return moonlightFramework
