@@ -16,7 +16,7 @@ https://img.shields.io/badge/wiki%20coverage-100%25-brightgreen
         <img src="https://img.shields.io/github/release/callmehSpear/Moonlight-Framework.svg?style=flat-square" alt="Latest Release" />
     </a>
     <a title="Wiki" href="https://github.com/callmehSpear/Moonlight-Framework/wiki" target="_blank">
-        <img src="https://img.shields.io/badge/wiki%20coverage-100%25-brightgreen" alt="Latest Release" />
+        <img src="https://img.shields.io/badge/wiki%20coverage-100%25-brightgreen?style=flat-square" alt="Latest Release" />
     </a>
 </p>
     
