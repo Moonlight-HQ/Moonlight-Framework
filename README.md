@@ -7,13 +7,14 @@
     <a title="Contributors" href="https://github.com/callmehSpear/Moonlight-Framework/contributors" target="_blank">
         <img src="https://img.shields.io/github/contributors/callmehSpear/Moonlight-Framework.svg?style=flat-square" alt="Contributors" />
     </a>
-    <a title="Release" href="https://github.com/callmehSpear/Moonlight-Framework/releases" target="_blank">
-        <img src="https://img.shields.io/github/release/callmehSpear/Moonlight-Framework.svg?style=flat-square" alt="Latest Release" />
-    </a>
     <a title="License" href="https://github.com/callmehSpear/Moonlight-Framework/blob/master/LICENSE.md" target="_blank">
         <img src="https://img.shields.io/github/license/callmehSpear/Moonlight-Framework.svg?style=flat-square" alt="License" />
     </a>
 </p>
+    <a title="Release" href="https://github.com/callmehSpear/Moonlight-Framework/releases" target="_blank">
+        <img src="https://img.shields.io/github/release/callmehSpear/Moonlight-Framework.svg?style=flat-square" alt="Latest Release" />
+    </a>
+    
 The Moonlight Framework is a Roblox Framework/Library made in Luau the programming language of Roblox providing developers with helpful functions and tools.
     
 # Installation Instructions
