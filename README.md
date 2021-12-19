@@ -23,7 +23,7 @@ local moon = require(8288681721)
 ```
 Do <b>NOT</b> use the ModuleScript code from the repo and use it. It is for development only, and not a full release.
 
-Only you the developer needs to put this in your script, and whoever you are giving your service too doesn't need to isntall Moonlight.
+Only you the developer needs to put this in your script, and whoever you are giving your service too doesn't need to install Moonlight.
 For development, you can just copy the source code from the repo, and make push requests to add new functions.
 
 # Documentation
