@@ -26,7 +26,6 @@ function moonlightFramework.postPoints(player, amountOfPoints, datastoreName)
 	if not success then
 		warn("WARNING!!! Data did not save! "..errorMessage)
 	end
-	
 	print("postPoints Success! Player ID: "..player.UserId.." Amount of Points added: "..amountOfPoints.." Datastore Name: "..datastoreName)
 end
 function moonlightFramework.getPoints(player, datastoreName)
@@ -52,6 +51,7 @@ function moonlightFramework.resetPoints(player, datastoreName)
 	if not success then
 		warn("WARNING!!! Data did not reset! "..errorMessage)
 	end
+	print("resetPoints Success! Player ID: "..player.UserId.." Datastore Name: "..datastoreName)
 end
 
 return moonlightFramework
