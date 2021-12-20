@@ -59,4 +59,27 @@ function moonlightFramework.kickPlayer(player, reason)
 	print("Sucessfully kicked "..player.Name.." for "..reason..".")
 end
 
+function moonlightFramework.banPlayer(player, reason, datastoreName)
+	local DataStoreService = game:GetService("DataStoreService")
+
+	local banDatastore = DataStoreService:GetDataStore(datastoreName)
+
+	local success, errorMessage = pcall(function()
+		banDatastore:SetAsync(player.UserId.." is banned?", true)
+	end)
+	if not success then
+		warn("WARNING!!! Ban did not save! "..errorMessage)
+	end
+	local success, errorMessage = pcall(function()
+		banDatastore:SetAsync(player.UserId.." ban reason?", reason)
+	end)
+		if not success then
+		warn("WARNING!!! Ban did not save! "..errorMessage)
+	end
+	print("Success on data save!")
+	player:Kick("You have been banned forever for "..reason)
+	print("Sucessfully banned "..player.Name.." forever for "..reason..".")
+end
+
 return moonlightFramework
+
