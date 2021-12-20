@@ -19,7 +19,7 @@ function moonlightFramework.postPoints(player, amountOfPoints, datastoreName)
 	local DataStoreService = game:GetService("DataStoreService")
 
 	local pointDatastore = DataStoreService:GetDataStore(datastoreName)
-	
+
 	local success, errorMessage = pcall(function()
 		pointDatastore:IncrementAsync(player.UserId, amountOfPoints)
 	end)
@@ -32,7 +32,7 @@ function moonlightFramework.getPoints(player, datastoreName)
 	local DataStoreService = game:GetService("DataStoreService")
 
 	local pointDatastore = DataStoreService:GetDataStore(datastoreName)
-	
+
 	local success, currentPoints = pcall(function()
 		return pointDatastore:GetAsync(player.UserId)
 	end)
@@ -54,5 +54,9 @@ function moonlightFramework.resetPoints(player, datastoreName)
 	print("resetPoints Success! Player ID: "..player.UserId.." Datastore Name: "..datastoreName)
 end
 
+function moonlightFramework.kickPlayer(player, reason)
+	player:Kick("You have been kicked for "..reason)
+	print("Sucessfully kicked "..player.Name.." for "..reason..".")
+end
+
 return moonlightFramework
--- callmehSpear was here
