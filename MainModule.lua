@@ -54,6 +54,8 @@ function moonlightFramework.resetPoints(player, datastoreName)
 	print("resetPoints Success! Player ID: "..player.UserId.." Datastore Name: "..datastoreName)
 end
 
+-- Moderation kick/ban
+
 function moonlightFramework.kickPlayer(player, reason)
 	player:Kick("You have been kicked for "..reason)
 	print("Sucessfully kicked "..player.Name.." for "..reason..".")
@@ -79,6 +81,10 @@ function moonlightFramework.banPlayer(player, reason, datastoreName)
 	print("Success on data save!")
 	player:Kick("You have been banned forever for "..reason)
 	print("Sucessfully banned "..player.Name.." forever for "..reason..".")
+end
+
+function moonlightFramework.unbanPlayer(player, datastore)
+	
 end
 
 return moonlightFramework
