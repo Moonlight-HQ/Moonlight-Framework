@@ -83,8 +83,25 @@ function moonlightFramework.banPlayer(player, reason, datastoreName)
 	print("Sucessfully banned "..player.Name.." forever for "..reason..".")
 end
 
-function moonlightFramework.unbanPlayer(player, datastore)
+function moonlightFramework.unbanPlayer(playerID, datastoreName)
+	local DataStoreService = game:GetService("DataStoreService")
 
+	local banDatastore = DataStoreService:GetDataStore(datastoreName)
+
+	local success, errorMessage = pcall(function()
+		banDatastore:SetAsync(playerID.." is banned?", false)
+	end)
+	if not success then
+		warn("WARNING!!! Unbanan did not save! "..errorMessage)
+	end
+	local success, errorMessage = pcall(function()
+		banDatastore:SetAsync(playerID.." ban reason?", false)
+	end)
+	if not success then
+		warn("WARNING!!! Ban did not save! "..errorMessage)
+	end
+	print("Success on data save!")
+	print("Sucessfully unbanned "..playerID..".")
 end
 
 return moonlightFramework
