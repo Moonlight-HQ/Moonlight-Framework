@@ -1,5 +1,3 @@
-https://img.shields.io/badge/wiki%20coverage-100%25-brightgreen
-
 <p align="center">
     <a title="Moonlight" href="https://discord.gg/Qebv3Cj5PJ" target="_blank">
          <img src="https://cdn.discordapp.com/attachments/921495629035896866/921935377332314133/Untitled_Artwork.png" width="200" alt="DBM Mods" />
