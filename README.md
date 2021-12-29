@@ -27,7 +27,7 @@ local moon = require(8288681721)
 ```
 Do <b>NOT</b> use the ModuleScript code from the repo and use it. It is for development only, and not a full release.
 
-Using require() always makes sure you are using the latest version, which is v0.0.5
+Using require() always makes sure you are using the latest version, which is v0.1.0
 
 Only you the developer needs to put this in your script, and whoever you are giving your service too doesn't need to install Moonlight.
 For development, you can just copy the source code from the repo, and make push requests to add new functions.
