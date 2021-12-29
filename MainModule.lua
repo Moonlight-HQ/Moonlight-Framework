@@ -2,8 +2,8 @@ local moonlightFramework = {}
 
 -- General Utils
 
-function moonlightFramework.getStatus()
-	print("Fetching status...")
+function moonlightFramework.getVersion()
+	print("Fetching version...")
 	local httpService = game:GetService("HttpService")
 	local url = "https://api.github.com"
 	local data = httpService:GetAsync(url .. "/repos/callmehSpear/Moonlight-Framework/releases")
@@ -75,7 +75,7 @@ function moonlightFramework.banPlayer(player, reason, datastoreName)
 	local success, errorMessage = pcall(function()
 		banDatastore:SetAsync(player.UserId.." ban reason?", reason)
 	end)
-		if not success then
+	if not success then
 		warn("WARNING!!! Ban did not save! "..errorMessage)
 	end
 	print("Success on data save!")
@@ -84,8 +84,9 @@ function moonlightFramework.banPlayer(player, reason, datastoreName)
 end
 
 function moonlightFramework.unbanPlayer(player, datastore)
-	
+
 end
 
 return moonlightFramework
 
+-- callmehSpear
