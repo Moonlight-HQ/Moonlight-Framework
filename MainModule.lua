@@ -98,7 +98,7 @@ function moonlightFramework.unbanPlayer(playerID, datastoreName)
 		banDatastore:SetAsync(playerID.." ban reason?", false)
 	end)
 	if not success then
-		warn("WARNING!!! Ban did not save! "..errorMessage)
+		warn("WARNING!!! Unban did not save! "..errorMessage)
 	end
 	print("Success on data save!")
 	print("Sucessfully unbanned "..playerID..".")
