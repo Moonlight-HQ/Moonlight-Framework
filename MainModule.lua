@@ -13,6 +13,18 @@ function moonlightFramework.getVersion()
 	return ver
 end
 
+function moonlightFramework.checkPlayerInGroup(player, groupId)
+	if player:IsInGroup(groupId) then                    
+		print(player.Name.." is in group with ID "..groupId)
+		local isInGroup = true
+		return isInGroup
+	else
+		print(player.Name.." is not in group with ID "..groupId)
+		local isInGroup = false
+		return isInGroup
+	end
+end
+
 -- Point System, for airlines, cafes, hotels etc
 
 function moonlightFramework.postPoints(player, amountOfPoints, datastoreName)
