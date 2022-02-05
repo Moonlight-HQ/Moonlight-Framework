@@ -1,3 +1,5 @@
+# This version is deprecated, no documentation is included, loader 8741612787.
+
 <p align="center">
     <a title="Moonlight" href="https://discord.gg/Qebv3Cj5PJ" target="_blank">
          <img src="https://cdn.discordapp.com/attachments/921495629035896866/921935377332314133/Untitled_Artwork.png" width="200" alt="DBM Mods" />
@@ -23,7 +25,7 @@ The Moonlight Framework is a Roblox Framework/Library made in Luau the programmi
 # Installation Instructions
 To install Moonlight Framework, all you need to do is require it. Paste the following line into the top of your script.
 ```
-local moon = require(8288681721)
+local moon = require(8741612787)
 ```
 Do <b>NOT</b> use the ModuleScript code from the repo and use it. It is for development only, and not a full release.
 
