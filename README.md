@@ -35,4 +35,4 @@ Only you the developer needs to put this in your script, and whoever you are giv
 For development, you can just copy the source code from the repo, and make push requests to add new functions.
 
 # Documentation
-I believe the documentation is very good, so please check the documentation<a href="https://github.com/callmehSpear/Moonlight-Framework/wiki"> here</a>.
+N/A for 0.0.x
