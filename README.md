@@ -1,6 +1,6 @@
 <p align="center">
     <a title="Moonlight" href="https://discord.gg/Qebv3Cj5PJ" target="_blank">
-         <img src="https://cdn.discordapp.com/attachments/921495629035896866/921935377332314133/Untitled_Artwork.png" width="200" alt="DBM Mods" />
+         <img src="https://raw.githubusercontent.com/Moonlight-HQ/Moonlight-Branding/main/ml_logo_square_white_trans.png" width="200" alt="DBM Mods" />
     </a>
 </p>
 <p align="center">
