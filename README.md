@@ -1,6 +1,6 @@
 <p align="center">
-    <a title="Moonlight" href="https://discord.gg/Qebv3Cj5PJ" target="_blank">
-         <img src="https://raw.githubusercontent.com/Moonlight-HQ/Moonlight-Branding/main/ml_logo_square_white_trans.png" width="200" alt="Moonlight Framework" />
+    <a title="Moonlight" href="https://discord.gg/jUrm7c7pKM" target="_blank">
+         <img src="https://github.com/Moonlight-HQ/Moonlight-Branding/blob/main/moonlight/moonlight_black_trans.png?raw=true" width="200" alt="Moonlight Framework" />
     </a>
 </p>
 <p align="center">
